@@ -21,7 +21,7 @@ with predict_container:
         options=["Machine Learning", "Deep Learning"],
     )
 
-with open(f"/data/{sample_type}.json", "r") as json_file:
+with open(f"data/{sample_type}.json", "r") as json_file:
     features_metadata = json.load(json_file)
 
     if sample_type == "Random":
